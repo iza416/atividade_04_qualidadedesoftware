@@ -40,3 +40,10 @@ Como a regra de negócio estabelece que pedidos a partir de R$ 30,00 são válid
 garantindo que o operador  inclua o limite (`>=` e não apenas `>`).
 Já o `TU02` testa o valor abaixo do limite (`29.90`), fazendo com que pedidos abaixo desse valor sejam bloqueados com retorno `False`. 
 O `TU03` valida o tratamento de exceções com `pytest.raises(ValueError)` para impedir entradas inválidas (valores negativos)
+
+
+Uso de inteligência artificial
+Ferramenta utilizada: Gemini 
+
+Como a ferramenta foi utilizada: Para auxílio no texto do README. 
+
